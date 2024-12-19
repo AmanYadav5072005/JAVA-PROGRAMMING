@@ -1,9 +1,12 @@
-class Z12{
+class Reverse{
 public static void main(String args[]){
-StringBuffer s=new StringBuffer("AMAN");
+
+StringBuffer s=new StringBuffer("welcome");
 System.out.println(s);
-s.setCharAt(0,'N');
+ 
+s.reverse();
 System.out.println(s);
 
- }
+}
+
 }

@@ -1,15 +1,9 @@
 class Z2{
 public static void main(String args[]){
-int i;
-i=10;
-while(i<=20){
-if(i%2==0){
-System.out.println(i);
-}
-i++;//
+StringBuffer s=new StringBuffer("welcome to Bhopal");
+System.out.println(s);
+s.delete(3,6);
+System.out.println(s);
 
-}
-
-}
-
+ }
 }
